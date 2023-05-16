@@ -3,7 +3,6 @@ import Footer from "@/components/Footer/Footer";
 import Meta from "@/components/Meta";
 import backGround from "../../styles/images/background.svg";
 import avatar from "../../styles/images/avatar.png";
-// import iconCertificate from "../../styles/images/icon certificate.svg";
 import certificate1 from "../../styles/images/certificate1.png";
 import certificate2 from "../../styles/images/certificate2.png";
 import certificate3 from "../../styles/images/certificate3.png";
@@ -32,7 +31,7 @@ export default function Certificates() {
         </div>
         <h5 className={`title1 text-center mt-5 pt-5`}>Certificates</h5>
         <h1 className={`title2 text-center mt-3`}>My Certificates</h1>
-        <div className="d-flex flex-column flex-lg-row flex-wrap mx-5 mt-3 justify-content-around">
+        <div className="d-flex flex-column flex-md-row flex-wrap mx-5 mt-3 justify-content-around">
           <Certificate
             src={certificate1}
             alt="certificate Blender"

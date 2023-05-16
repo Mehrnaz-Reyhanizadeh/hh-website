@@ -78,16 +78,3 @@ body {
     width: 68%;
   }
 }
-
-.blurbody > * {
-  /* filter: blur(1.2px); */
-}
-
-.navbarblur {
-  /* filter: blur(0) !important; */
-  /* backdrop-filter: blur(2px) sepia(50%);
-  z-index: 9999999999999999999; */
-}
-/* .navbarblur::backdrop {
-  background-color: darkorange;
-} */

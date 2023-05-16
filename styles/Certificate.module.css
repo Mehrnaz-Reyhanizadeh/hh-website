@@ -12,8 +12,15 @@
 }
 .CertificateContainer {
   margin-top: 5rem;
+  display: block;
+  width: 40%;
 }
 .imageCertificateStyle {
   width: 100%;
   height: 80%;
+}
+@media screen and (max-width: 730px) {
+  .CertificateContainer {
+    width: 100%;
+  }
 }
