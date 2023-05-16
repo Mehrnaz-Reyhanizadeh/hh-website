@@ -1,0 +1,101 @@
+.fontNav {
+  font-size: 1.3rem;
+}
+.navLinkStyle {
+  color: #000;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.navLinkStyle:hover {
+  text-decoration: none;
+  color: #00aeff !important;
+}
+.navLinkActive {
+  border-bottom: 4px solid #00aeff;
+  padding-bottom: 0px;
+  color: #000;
+  width: 60px;
+  margin: 0 auto;
+}
+.navMarginActive {
+  margin-bottom: calc(10px - 4px);
+}
+.navLinkActive:hover {
+  text-decoration: none;
+  color: #000 !important;
+}
+.navLogo {
+  width: 180px;
+  height: 87px;
+}
+@media screen and (max-width: 730px) {
+  .navLogo {
+    width: 150px;
+    height: 85px;
+  }
+
+  .myNavbarCollapseStyle {
+    position: absolute;
+    top: 108px;
+    z-index: 1;
+    left: 0;
+    background-color: white;
+    width: 40px;
+    height: 100vh;
+    /* max-height: 1000vh; */
+    width: 56% !important;
+    align-items: end !important;
+    transition: all 0.5s;
+    /* backdrop-filter: blur(40px) !important;
+    z-index: 2000; */
+  }
+  .navLinkActive {
+    border-bottom: none;
+    padding-bottom: 0px;
+    color: #00aeff;
+    width: 60px;
+    font-weight: bolder;
+  }
+}
+.navButton {
+  background-image: url("./images/navIcon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  margin-left: 2rem;
+  transition: all 0.2s;
+}
+.navButtonActive {
+  background-image: url("./images/navIconSm.svg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px !important;
+  height: 30px !important;
+  margin-left: 3rem !important;
+  transition: all 0.2s;
+}
+.navTitleSM {
+  padding-top: 1rem;
+  color: #000;
+  font-size: 1.3rem;
+  margin: 0.3rem auto 1rem 0.5rem;
+  font-weight: 600;
+}
+.navTitleSM:hover {
+  text-decoration: none;
+  color: #00aeff;
+}
+.navTitleSMActive {
+  padding-top: 1rem;
+  border: none;
+  color: #00aeff;
+  font-size: 1.3rem;
+  margin: 0.3rem auto 1rem 0.5rem;
+  font-weight: 600;
+}
+.navBorder {
+  border: 0.3px solid #a3a3a3;
+  width: 110px;
+  margin-left: 1rem;
+}

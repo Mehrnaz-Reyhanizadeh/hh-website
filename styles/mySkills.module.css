@@ -1,0 +1,19 @@
+.cardSkills {
+  background-color: #fff;
+  border-radius: 12px;
+  /* box-shadow: 1px 2px 18px -2px #e1faff;
+  -webkit-box-shadow: 1px 2px 18px -2px #e1faff;
+  -moz-box-shadow: 1px 2px 18px -2px #e1faff; */
+  box-shadow: 2px 4px 14px 6px #e1faff;
+  -webkit-box-shadow: 2px 4px 14px 6px #e1faff;
+  -moz-box-shadow: 2px 4px 14px 6px #e1faff;
+}
+.progressB {
+  border-radius: 12px;
+  background-color: #e1faff;
+}
+.progressInside {
+  margin: 3px 6px;
+  border-radius: 12px;
+  background-color: #00aeff;
+}

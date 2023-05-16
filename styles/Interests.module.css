@@ -1,0 +1,11 @@
+.heightContainerInterests {
+  height: fit-content;
+}
+.interestCardResponsive {
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 2px 4px 14px 6px #e1faff;
+  -webkit-box-shadow: 2px 4px 14px 6px #e1faff;
+  -moz-box-shadow: 2px 4px 14px 6px #e1faff;
+  border-radius: 15px;
+}

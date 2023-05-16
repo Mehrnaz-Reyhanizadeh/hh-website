@@ -1,0 +1,49 @@
+.bannerTitle {
+  color: #135c73;
+  font-size: 4rem;
+}
+.bannerText {
+  color: #a3a3a3;
+}
+
+.bannerButtonSize {
+  width: 193px;
+  height: 45px;
+}
+.bannerSm {
+  width: 85vw;
+  height: 20vh;
+  /* margin: 2rem auto 0 auto; */
+}
+.contactBannerStyle {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 0.5rem;
+  box-shadow: -6px 6px 12px -3px #e1faff;
+  -webkit-box-shadow: -6px 6px 12px -3px #e1faff;
+  -moz-box-shadow: -6px 6px 12px -3px #e1faff;
+}
+.contactBannertitle1 {
+  color: #135c73;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0.4rem;
+}
+.contactBannertitle2 {
+  color: #a3a3a3;
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.contactBannerStyleContainer {
+  margin-top: -2rem;
+}
+@media screen and (max-width: 730px) {
+  .bannerTitle {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,19 @@
+.subject {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.nameAcademi {
+  text-align: center;
+  color: #00aeff;
+  margin-top: 0;
+}
+.CertificateContainer {
+  margin-top: 5rem;
+}
+.imageCertificateStyle {
+  width: 100%;
+  height: 80%;
+}
