@@ -15,7 +15,7 @@ function Navbar() {
     <>
       <nav
         id="navId"
-        className={` navbar navbar-expand-lg bg-white navbar navbar-expand-lg justify-content-between py-3 px-2`}
+        className={` navbar navbar-expand-lg bg-white navbar navbar-expand-lg justify-content-between py-1 px-2`}
       >
         <button
           onClick={() => useIconActive(!activeIcon)}
@@ -32,7 +32,7 @@ function Navbar() {
           aria-label="Toggle navigation"
         ></button>
         <div className="">
-          <Link className="text-dark navbar-brand ml-5" href="/">
+          <Link className="text-dark navbar-brand ml-3" href="/">
             <Image
               src={name_and_logo}
               alt="hoseein hekmati logo"
@@ -44,7 +44,7 @@ function Navbar() {
           dir="rtl"
           className={`
          
-          ${styles.myNavbarCollapseStyle} navbar-nav w-75 collapse navbar-collapse `}
+          ${styles.myNavbarCollapseStyle} navbar-nav w-75 collapse navbar-collapse mr-2`}
           id="navbarNavAltMarkup"
         >
           <li className={`${styles.navBorder} d-inline-block d-lg-none`}></li>

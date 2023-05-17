@@ -3,8 +3,8 @@ import Navbar from "@/components/Navbar/Navbar";
 export default function Layout(props) {
   return (
     <>
+      <Navbar />
       <div className="whole-container">
-        <Navbar />
         <main style={{}}>{props.children}</main>
       </div>
     </>
