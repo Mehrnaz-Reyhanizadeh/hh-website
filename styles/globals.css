@@ -48,9 +48,9 @@ body {
   background-image: linear-gradient(to right, #71e4ff, #00aeff);
   color: #fff;
 }
-/* portfolio page */
+/* portfolio and certiciate profile photos section style page */
 .user-style {
-  margin-left: 22rem;
+  margin-left: 26rem;
   background-color: #f5f5f5;
   padding: 5px;
   border-radius: 50%;
@@ -60,6 +60,16 @@ body {
 }
 .fontHeadPages {
   font-weight: 500;
+}
+@media screen and (max-width: 1800px) {
+  .user-style {
+    margin-left: 20rem;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .user-style {
+    margin-left: 5rem;
+  }
 }
 @media screen and (max-width: 730px) {
   html,
