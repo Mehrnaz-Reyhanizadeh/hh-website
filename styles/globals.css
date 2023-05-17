@@ -1,17 +1,15 @@
-/* :root {
-
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
-
-  
-} */
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: poppins, ui-monospace, Menlo, Monaco, "Cascadia Mono",
+    "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace",
+    "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 }
 
 html,
