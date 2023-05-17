@@ -20,7 +20,7 @@ function Interests() {
       <h5 className={` title1 text-lg-center ml-3 mt-5 pt-1`}>Interests</h5>
       <h1 className={` title2 text-lg-center ml-3 mt-3`}>Hobbies</h1>
       <div
-        className={`d-none d-lg-block container-fluid px-5 ${styles.heightContainerInterests} mt-5 `}
+        className={`d-none d-lg-block container-fluid  ${styles.heightContainerInterests} mt-5 `}
       >
         <div className="row  justify-content-between ">
           <div className="col-lg-5">
@@ -83,13 +83,13 @@ function Interests() {
         <div className="row  justify-content-between mt-5 pt-5">
           <div className="col-lg-5">
             <h4 className="text-center mb-2">Programming</h4>
-            <p className="text-center textGray mt-4 mb-5 px-1 h-25">
+            <p className="text-center textGray mt-4 mb-5 px-4 h-25">
               I’m a computer nerd so it’s normal for someone like me to at least
               try coding once. I learned Python when I was at university and
               enjoyed every second of it! most scripts I’ve written were in
               fields of Data Mining, Natural language Processing
             </p>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-center">
               <InterestsDetails
                 data={{
                   imageSrc: imgProcessing,

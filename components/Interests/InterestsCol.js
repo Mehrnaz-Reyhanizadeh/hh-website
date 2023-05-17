@@ -24,8 +24,8 @@ function InterestsCol({ data }) {
   return (
     <>
       <h4 className="text-center mb-2">{mainTitle}</h4>
-      <p className="text-center textGray mt-4 mb-5 px-1 h-25">{text}</p>
-      <div className="d-flex justify-content-between">
+      <p className="text-center textGray mt-4 mb-5 px-4 h-25">{text}</p>
+      <div className="d-flex justify-content-around">
         <InterestsDetails
           data={{
             imageSrc: src1,
