@@ -32,33 +32,35 @@ export default function Certificates() {
         </div>
         <h5 className={`title1 text-center mt-2 pt-2`}>Certificates</h5>
         <h1 className={`title2 text-center mt-1`}>My Certificates</h1>
-        <div
-          className={`d-flex flex-column flex-md-row flex-wrap mx-auto mt-1 justify-content-around ${styles.certificateContainer}`}
-        >
-          <Certificate
-            src={certificate1}
-            alt="certificate Blender"
-            subject={"3D Design (Blender)"}
-            name={"Amanj Academy"}
-          />
-          <Certificate
-            src={certificate2}
-            alt="certificate Foundation of UX Design"
-            subject={"Foundation of UX Design"}
-            name={"Google"}
-          />
-          <Certificate
-            src={certificate3}
-            alt="certificate Wordpress"
-            subject={"Wordpress (Advanced)"}
-            name={"Technical and Vocational University"}
-          />
-          <Certificate
-            src={certificate4}
-            alt="certificate Responsive Design with Grids"
-            subject={"Responsive Design with Grids"}
-            name={"Udemy"}
-          />
+        <div className="container px-lg-0">
+          <div
+            className={`d-flex flex-column flex-md-row flex-wrap mx-auto mt-1 justify-content-between ${styles.certificateContainer}`}
+          >
+            <Certificate
+              src={certificate1}
+              alt="certificate Blender"
+              subject={"3D Design (Blender)"}
+              name={"Amanj Academy"}
+            />
+            <Certificate
+              src={certificate2}
+              alt="certificate Foundation of UX Design"
+              subject={"Foundation of UX Design"}
+              name={"Google"}
+            />
+            <Certificate
+              src={certificate3}
+              alt="certificate Wordpress"
+              subject={"Wordpress (Advanced)"}
+              name={"Technical and Vocational University"}
+            />
+            <Certificate
+              src={certificate4}
+              alt="certificate Responsive Design with Grids"
+              subject={"Responsive Design with Grids"}
+              name={"Udemy"}
+            />
+          </div>
         </div>
       </main>
       <Footer />

@@ -14,7 +14,7 @@ function Portfolio() {
         >
           Preview
         </button>
-        <div className="container mt-3">
+        <div className="container px-lg-0 mt-3">
           <div className="d-flex justify-content-between flex-wrap">
             <div className={`${styles.portfolioStyleContainer}`}>
               <Image
