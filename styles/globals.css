@@ -58,7 +58,9 @@ body {
   margin-top: -3rem;
   overflow: hidden;
 }
-
+.fontHeadPages {
+  font-weight: 500;
+}
 @media screen and (max-width: 730px) {
   html,
   body {

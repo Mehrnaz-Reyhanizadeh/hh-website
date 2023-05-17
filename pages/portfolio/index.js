@@ -18,7 +18,7 @@ export default function Portfilio() {
             <Image src={avatar} alt="hossein hekmati" width={150} />
           </div>
           <div className="mt-3 ml-3">
-            <p className="font-weight-bold pb-0 mb-0">
+            <p className="fontHeadPages pb-0 mb-0">
               Visual Design, UI Design, Web Design, Drawing Artist
             </p>
             <p className="textGray pt-0 mt-1">since 2016</p>

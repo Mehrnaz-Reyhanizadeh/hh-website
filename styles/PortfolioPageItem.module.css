@@ -12,18 +12,18 @@
   position: relative;
   width: 330px;
   height: 330px;
-  border-radius: 22px;
-  margin: 1rem;
+  border-radius: 17px;
+  margin: 1.3rem 1rem;
 }
 .portfolioStyle {
   width: 330px;
   height: 330px;
-  border-radius: 22px;
+  border-radius: 12px;
 }
 .portfolioIcon {
   position: absolute;
-  right: 6px;
-  top: 10px;
+  right: 8px;
+  top: 8px;
   cursor: pointer;
 }
 
