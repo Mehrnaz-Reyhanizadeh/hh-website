@@ -6,7 +6,7 @@ import portfolioIcon2 from "../../styles/images/portfolio icon 2.svg";
 function Portfolio() {
   return (
     <>
-      <h5 className={` title1 text-lg-center ml-3 mt-5 pt-5`}>Portfolio</h5>
+      <h5 className={` title1 text-lg-center ml-3 mt-5 pt-1`}>Portfolio</h5>
       <h1 className={` title2 text-lg-center ml-3 mt-3`}>My Portfolio</h1>
       <div className="d-flex flex-column">
         <button

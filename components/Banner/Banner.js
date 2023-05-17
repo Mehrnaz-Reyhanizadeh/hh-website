@@ -8,7 +8,7 @@ import styles from "../../styles/Banner.module.css";
 function Banner() {
   return (
     <>
-      <div className="row  d-lg-flex flex-column flex-lg-row p-1 p-lg-5 justify-content-between m-1 m-lg-5 w-100 w-lg-75 mx-auto">
+      <div className="row  d-lg-flex flex-column flex-lg-row p-1 p-lg-5 pb-lg-1 justify-content-between m-1 m-lg-5 w-100 w-lg-75 mx-auto">
         <div className="col-lg-6 text-left order-2 order-lg-0">
           <h1 className={`${styles.bannerTitle} mt-5 text-center text-lg-left`}>
             I’m Hossein

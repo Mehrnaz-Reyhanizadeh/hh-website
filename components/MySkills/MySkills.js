@@ -3,7 +3,7 @@ import ProgressBar from "./ProgressBar";
 function MySkills() {
   return (
     <>
-      <h5 className={`title1 text-lg-center ml-3 mt-5 pt-5`}>My Skills</h5>
+      <h5 className={`title1 text-lg-center ml-3 mt-5 pt-1`}>My Skills</h5>
       <h1 className={`title2 text-lg-center ml-3 mt-3`}>Skills and Language</h1>
       <div className="container w-lg-75">
         <div className="row d-flex p-lg-5 justify-content-around m-lg-5 px-2  mx-auto">
