@@ -3,7 +3,6 @@ import Link from "next/link";
 import styles from "../../styles/Navbar.module.css";
 import Image from "next/image";
 import name_and_logo from "../../styles/images/name_and_logo.svg";
-import navIcon from "../../styles/images/navIcon.svg";
 import { useRouter } from "next/router";
 
 function Navbar() {
