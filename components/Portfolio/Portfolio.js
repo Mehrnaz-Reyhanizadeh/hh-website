@@ -17,7 +17,9 @@ function Portfolio() {
 
   return (
     <>
-      <h5 className={` title1 text-lg-center ml-3 mt-5 pt-1`}>Portfolio</h5>
+      <h5 className={` title1 text-lg-center ml-3 mt-5 pt-1 mt-space`}>
+        Portfolio
+      </h5>
       <h1 className={` title2 text-lg-center ml-3 mt-3`}>My Portfolio</h1>
       <MyVerticallyCenteredModal
         show={modalShow}

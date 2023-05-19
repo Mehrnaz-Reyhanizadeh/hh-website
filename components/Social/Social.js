@@ -9,7 +9,9 @@ import styles from "../../styles/Social.module.css";
 function Social() {
   return (
     <>
-      <h5 className={` title1 text-center mt-5 pt-5 d-none d-lg-block`}>
+      <h5
+        className={` title1 text-center mt-5 pt-5 d-none d-lg-block mt-space`}
+      >
         My Social Media
       </h5>
       <h1 className={` title2 text-center mt-3 d-none d-lg-block`}>

@@ -17,7 +17,9 @@ import Image from "next/image";
 function Interests() {
   return (
     <>
-      <h5 className={` title1 text-lg-center ml-3 mt-5 pt-1`}>Interests</h5>
+      <h5 className={` title1 text-lg-center ml-3 mt-5 pt-1 mt-space`}>
+        Interests
+      </h5>
       <h1 className={` title2 text-lg-center ml-3 mt-3`}>Hobbies</h1>
       <div
         className={`d-none d-lg-block container-fluid  ${styles.heightContainerInterests} mt-5 `}

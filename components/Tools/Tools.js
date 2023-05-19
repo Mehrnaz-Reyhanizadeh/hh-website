@@ -8,7 +8,7 @@ import styles from "../../styles/Tools.module.css";
 function Tools() {
   return (
     <div className="container-fluid">
-      <div className="row d-flex  justify-content-between m-lg-5">
+      <div className="row d-flex mt-space  justify-content-between m-lg-5">
         <div className="col-12 col-lg-6 text-left">
           <h5 className={` ml-1 title1 mt-5`}>Tools</h5>
           <h1 className={` ml-1 pb-3 title2 `}>My Expertise</h1>

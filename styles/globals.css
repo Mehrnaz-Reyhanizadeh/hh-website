@@ -42,6 +42,11 @@ body {
   border: none;
   border-radius: 22.5px;
 }
+
+/* space section */
+.mt-space {
+  margin-top: 17rem !important;
+}
 /* footer style */
 
 .bg-footer {
