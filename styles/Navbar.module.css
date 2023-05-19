@@ -2,9 +2,9 @@
   font-size: 1.3rem;
 }
 .navbarContainer {
-  box-shadow: 0px 4px 4px #0000000a;
-  -webkit-box-shadow: 0px 4px 4px #0000000a;
-  -moz-box-shadow: 0px 4px 4px #0000000a;
+  box-shadow: 0px 7px 9px #00000004;
+  -webkit-box-shadow: 0px 7px 9px #00000004;
+  -moz-box-shadow: 0px 7px 9px #00000004;
 }
 .navLinkStyle {
   color: #000;
