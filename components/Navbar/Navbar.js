@@ -30,12 +30,12 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         ></button>
-        <div className="">
+        <div className={`${styles.navLogo} mr-4 mr-lg-0 mb-0 mb-lg-1`}>
           <Link className="text-dark navbar-brand ml-3" href="/">
             <Image
               src={name_and_logo}
               alt="hoseein hekmati logo"
-              className={styles.navLogo}
+              className={`${activeIcon && "d-none"} ${styles.navLogo}`}
             />
           </Link>
         </div>
