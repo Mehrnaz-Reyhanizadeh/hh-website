@@ -92,4 +92,7 @@ body {
     background-color: #fff;
     width: 68%;
   }
+  .mt-space {
+    margin-top: 2rem !important;
+  }
 }

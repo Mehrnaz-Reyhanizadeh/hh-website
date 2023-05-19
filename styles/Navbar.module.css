@@ -34,6 +34,11 @@
   height: 60px;
 }
 @media screen and (max-width: 730px) {
+  .navbarContainer {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
   .navLogo {
     width: 150px;
     height: 85px;
