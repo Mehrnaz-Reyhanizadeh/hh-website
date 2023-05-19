@@ -14,7 +14,7 @@ function Navbar() {
     <>
       <nav
         id="navId"
-        className={` navbar navbar-expand-lg bg-white navbar navbar-expand-lg justify-content-between py-1 px-2`}
+        className={`${styles.navbarContainer} navbar navbar-expand-lg bg-white navbar navbar-expand-lg justify-content-between py-1 px-2`}
       >
         <button
           onClick={() => useIconActive(!activeIcon)}
